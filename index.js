@@ -241,3 +241,17 @@ if (!process.env.DISCORD_TOKEN) {
 } else {
     client.login(process.env.DISCORD_TOKEN);
 }
+
+// --- SERWER HTTP DLA RENDER.COM (Keep-Alive) ---
+const http = require('http');
+const port = process.env.PORT || 3000;
+
+const server = http.createServer((req, res) => {
+    res.writeHead(200, { 'Content-Type': 'text/plain' });
+    res.end('Metin Bot is alive!');
+});
+
+server.listen(port, () => {
+    console.log(`Serwer HTTP nasłuchuje na porcie ${port}`);
+});
+
