@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Metiny (15 i 45)",
+        "channelId": "1455527411704795353",
+        "cron": "15,45 * * * *",
+        "message": "⚔️ **Uwaga! Respią się metiny!** ⚔️\nPowodzenia w dropieniu! @here",
+        "warningCron": "13,43 * * * *",
+        "warningMessage": "⏳ **Za 2 minuty zrespią się metiny!** Szykujcie się!"
+    },
+    {
+        "name": "Metiny i Bossy (0 i 30)",
+        "channelId": "1455527411704795353",
+        "cron": "0,30 * * * *",
+        "message": "⚔️👹 **Uwaga! Respią się metiny i bossy!** 👹⚔️\nPowodzenia w dropieniu! @here",
+        "warningCron": "28,58 * * * *",
+        "warningMessage": "⏳ **Za 2 minuty zrespią się metiny i bossy!** Szykujcie się!"
+    },
+    {
+        "name": "Bossy 45min (Cykl 1)",
+        "channelId": "1455531045611896873",
+        "cron": "30 1,4,7,10,13,16,19,22 * * *",
+        "message": "🔥 **Uwaga! Respi się Boss (co 45min)!** 🔥 @here",
+        "warningCron": "28 1,4,7,10,13,16,19,22 * * *",
+        "warningMessage": "⏳ **Za 2 minuty Boss (45min)!**"
+    },
+    {
+        "name": "Bossy 45min (Cykl 2)",
+        "channelId": "1455531045611896873",
+        "cron": "15 2,5,8,11,14,17,20,23 * * *",
+        "message": "🔥 **Uwaga! Respi się Boss (co 45min)!** 🔥 @here",
+        "warningCron": "13,58 2,5,8,11,14,17,20,23 * * *",
+        "warningMessage": "⏳ **Za 2 minuty Boss (45min)!**"
+    },
+    {
+        "name": "Bossy 45min (Cykl 3)",
+        "channelId": "1455531045611896873",
+        "cron": "0,45 0,3,6,9,12,15,18,21 * * *",
+        "message": "🔥 **Uwaga! Respi się Boss (co 45min)!** 🔥 @here",
+        "warningCron": "43 0,3,6,9,12,15,18,21 * * *",
+        "warningMessage": "⏳ **Za 2 minuty Boss (45min)!**"
+    }
+]
